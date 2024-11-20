@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.console-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ascii-art {
+    white-space: pre;
+    line-height: 1.2;
+    margin-right: 20px;
+}
+
+.ascii-text {
+    white-space: pre-wrap;
+    line-height: 1.2;
+}
+
+.console-response {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    line-height: 1.2;
+}
+
+#loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#loadingText {
+    font-size: 1.5em;
+}
+
+#console {
+    padding: 10px;
+}
+
+#consoleOutput {
+    margin-bottom: 10px;
+}
+
+#consoleInput {
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 1em;
+}
