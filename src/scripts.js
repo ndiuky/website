@@ -81,6 +81,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
+  const daysToNewYear = () => {
+    const today = new Date();
+    const newYear = new Date(today.getFullYear() + 1, 0, 1);
+    const oneDay = 24 * 60 * 60 * 1000;
+    const diffInTime = newYear.getTime() - today.getTime();
+    const diffInDays = Math.round(diffInTime / oneDay);
+      return diffInDays;
+  }
+
   const displayWelcomeMessage = () => {
     const welcomeMessageArt = `@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@.====.@@@@@@@.====.@@@@@@@@
@@ -145,6 +154,7 @@ All available commands:
     <span style="color: white;">bye</span> - don't say it
     <span style="color: white;">amogus</span> - sussy
     <span style="color: white;">sus</span> - sussy too
+    <span style="color: white;">new year</span> - until the new year
                 `;
         break;
       case "hello":
@@ -162,6 +172,9 @@ All available commands:
       case "bye":
         response = `Don't leave me!`;
         break;
+      case "new year":
+	response = `${daysToNewYear()} days left until the new year`;
+	break;
       default:
         response = "Unknown command.";
         break;
