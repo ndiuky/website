@@ -1,4 +1,4 @@
-{ 
+{
   "name": "ndiuky.github.io",
   "version": "1.0.0",
   "main": "index.js",
@@ -11,11 +11,14 @@
     "source-map-js": "^1.2.1"
   },
   "devDependencies": {
-   "vite": "^6.0.3"                                                                        },
+    "prettier": "^3.4.2",
+    "vite": "^6.0.3"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "prettier --write ."
   },
   "keywords": [],
   "author": "ndiuky",

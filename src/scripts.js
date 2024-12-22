@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
           .map((char) =>
             Math.random() < 0.5
               ? char
-              : String.fromCharCode(33 + Math.floor(Math.random() * 94))
+              : String.fromCharCode(33 + Math.floor(Math.random() * 94)),
           )
           .join("");
       }, 10);
@@ -87,8 +87,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const oneDay = 24 * 60 * 60 * 1000;
     const diffInTime = newYear.getTime() - today.getTime();
     const diffInDays = Math.round(diffInTime / oneDay);
-      return diffInDays;
-  }
+    return diffInDays === 0
+      ? "Happy new year!"
+      : `${diffInDays} days left until the new year`;
+  };
 
   const displayWelcomeMessage = () => {
     const welcomeMessageArt = `@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -173,8 +175,8 @@ All available commands:
         response = `Don't leave me!`;
         break;
       case "new year":
-	response = `${daysToNewYear()} days left until the new year`;
-	break;
+        response = daysToNewYear();
+        break;
       default:
         response = "Unknown command.";
         break;
