@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "prettier": "^3.4.2",
-    "vite": "^6.0.9"
+    "vite": "^6.0.12"
   },
   "scripts": {
     "dev": "vite",
