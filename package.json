@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "esbuild": "^0.24.0",
+    "esbuild": "^0.25.0",
     "nanoid": "^3.3.8",
     "picocolors": "^1.1.1",
     "postcss": "^8.4.49",
