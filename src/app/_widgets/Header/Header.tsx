@@ -11,7 +11,7 @@ export const Header = () => {
       <div className="pl-2 lg:pl-48 md:flex">
         <p className="text-2xl font-semibold">ndiuky</p>
       </div>
-      <div className="hidden md:flex space-x-4 pr-10 lg:pr-48">
+      <nav className="hidden md:flex space-x-4 pr-10 lg:pr-48">
         <Link
           href="/"
           className={`text-xl font-semibold hover:text-purple-600 transition-colors duration-500 ${
@@ -36,7 +36,7 @@ export const Header = () => {
         >
           About
         </Link>
-      </div>
+      </nav>
     </header>
   );
 };
