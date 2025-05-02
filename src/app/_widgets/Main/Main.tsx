@@ -1,4 +1,5 @@
 import { AnimatedText } from "@/app/_ui";
+import { Terminal } from "@/app/_components";
 
 export const Main = () => {
   return (
@@ -11,6 +12,9 @@ export const Main = () => {
           </span>
         </h1>
         <AnimatedText />
+      </div>
+      <div className="w-full lg:w-[45%] mt-8 lg:mt-0 min-h-[320px] -mr-3 sm:mr-0 overflow-hidden">
+        <Terminal />
       </div>
     </main>
   );

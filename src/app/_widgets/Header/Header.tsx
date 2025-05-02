@@ -1,5 +1,3 @@
-"use client";
-
 import { Navbar } from "@/app/_components";
 
 export const Header = () => {
