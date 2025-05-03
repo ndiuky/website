@@ -8,7 +8,13 @@ export const fullCode = `function aboutMe(): AboutMe {
         contactInfo: {
             email: "anod100002@gmail.com",
             telegram: "@ndiuky",
-            github: "github.com/ndiuky"
+            github: "github.com/ndiuky",
+            linkedin: "linkedin.com/in/ndiuky",
         },
+        langs: [
+            "En",
+            "Ru",
+            "Az",
+        ],
     };
 }`;
