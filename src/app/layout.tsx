@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import type { RootLayoutProps } from "@/interfaces";
+import type { LayoutProps } from "@/interfaces";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,13 +19,15 @@ export const metadata: Metadata = {
   description: "ndiuky's website",
 };
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="min-h-screen flex flex-col overflow-x-hidden">
+          {children}
+        </div>
       </body>
     </html>
   );

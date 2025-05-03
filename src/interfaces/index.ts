@@ -1,3 +1,3 @@
-export interface RootLayoutProps {
+export interface LayoutProps {
   children: React.ReactNode;
 }

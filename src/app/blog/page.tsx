@@ -1,6 +1,6 @@
 import { Header } from "@/app/_widgets";
 
-const About = () => {
+const Blog = () => {
   return (
     <div>
       <Header />
@@ -8,4 +8,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Blog;
