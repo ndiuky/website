@@ -17,6 +17,53 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ndiuky.ts",
   description: "ndiuky's website",
+  applicationName: "ndiuky.ts",
+  authors: [
+    {
+      name: "Farid Tipayev",
+      url: "github.com/ndiuky",
+    },
+  ],
+  keywords: [
+    "ndiuky",
+    "Farid Tipayev",
+    "Azerbaijan",
+    "developer",
+    "nextjs",
+    "javascript",
+    "typescript",
+    "react",
+    "web development",
+    "frontend",
+    "backend",
+    "fullstack",
+    "full stack",
+  ],
+  creator: "Farid Tipayev",
+  publisher: "Farid Tipayev",
+  robots: {
+    index: true,
+  },
+  openGraph: {
+    title: "ndiuky.ts",
+    description: "ndiuky's website",
+    url: "https://ndiuky.vercel.app",
+    siteName: "ndiuky.ts",
+    images: [
+      {
+        url: "https://ndiuky.vercel.app/avatar.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ndiuky.ts",
+    description: "ndiuky's website",
+    images: ["https://ndiuky.vercel.app/avatar.jpg"],
+    creator: "@ndiuky_dev",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps) {
