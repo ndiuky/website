@@ -1,4 +1,4 @@
-import { highlightedCode } from "@/helpers/highlightedCode";
+import { highlightedCode } from "@/constants/highlightedCode";
 import "./Terminal.css";
 
 export const Terminal = () => {
