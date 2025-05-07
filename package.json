@@ -1,0 +1,27 @@
+{
+  "name": "ndiuky.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.25.0",
+    "nanoid": "^3.3.8",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.4.49",
+    "rollup": "^4.28.1",
+    "source-map-js": "^1.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "vite": "^6.1.6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "ndiuky",
+  "license": "MIT",
+  "description": ""
+}
