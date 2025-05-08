@@ -72,9 +72,7 @@ export default function RootLayout({ children }: LayoutProps) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="min-h-screen flex flex-col overflow-x-hidden">
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );
