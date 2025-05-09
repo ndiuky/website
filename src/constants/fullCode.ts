@@ -1,13 +1,10 @@
 export const fullCode = `function aboutMe(): AboutMe {
     return {
-        profile: {
-            name: "Farid Tipayev",
-            age: 18,
-            nickname: "ndiuky",
-        },
+        name: "Farid Tipayev",
+        location: "Baku, Azerbaijan",
         contactInfo: {
             email: "anod100002@gmail.com",
-            telegram: "@ndiuky",
+            telegram: "@ndiuky_dev",
             github: "github.com/ndiuky",
             linkedin: "linkedin.com/in/ndiuky",
         },
