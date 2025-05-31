@@ -1,10 +1,11 @@
-import { Header, Main } from "@/app/_widgets";
+import { Header, Main, Footer } from "@/app/_widgets";
 
 const Home = () => {
   return (
-    <div className="flex flex-col overflow-x-hidden">
+    <div className="flex flex-col overflow-x-hidden min-h-screen">
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 };
