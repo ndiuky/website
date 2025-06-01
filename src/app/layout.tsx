@@ -52,8 +52,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://ndiuky.vercel.app/avatar.jpg",
-        width: 1200,
-        height: 630,
+        width: 128,
+        height: 128,
       },
     ],
   },
