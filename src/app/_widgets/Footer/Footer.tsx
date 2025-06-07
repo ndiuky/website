@@ -1,5 +1,3 @@
-"use client";
-
 export const Footer = async () => {
   const response = await fetch("https://webring.otomir23.me/39/data");
   const data = await response.json();
