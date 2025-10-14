@@ -1,38 +1,24 @@
 {
   "name": "ndiuky",
-  "version": "0.1.0",
+  "description": "web site",
+  "version": "3.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write .",
-    "prepare": "husky"
-  },
-  "dependencies": {
-    "next": "15.4.7",
-    "prismjs": "^1.30.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0",
-    "react-markdown": "^10.1.0",
-    "react-syntax-highlighter": "^15.6.1",
-    "react-type-animation": "^3.2.0"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/prismjs": "^1.26.5",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@types/react-syntax-highlighter": "^15.5.13",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.1",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@tsconfig/svelte": "^5.0.5",
+    "@types/node": "^24.6.0",
+    "svelte": "^5.39.6",
+    "svelte-check": "^4.3.2",
+    "typescript": "~5.9.3",
     "husky": "^9.1.7",
     "prettier": "^3.5.3",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "vite": "^7.1.7"
   }
 }
