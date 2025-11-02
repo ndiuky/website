@@ -20,14 +20,12 @@ export const metadata: Metadata = {
   applicationName: "ndiuky.ts",
   authors: [
     {
-      name: "Farid Tipayev",
+      name: "Merlin. Sparrow",
       url: "github.com/ndiuky",
     },
   ],
   keywords: [
     "ndiuky",
-    "Farid Tipayev",
-    "Azerbaijan",
     "developer",
     "nextjs",
     "javascript",
@@ -39,8 +37,8 @@ export const metadata: Metadata = {
     "fullstack",
     "full stack",
   ],
-  creator: "Farid Tipayev",
-  publisher: "Farid Tipayev",
+  creator: "Merlin Sparrow",
+  publisher: "Merlin Sparrow",
   robots: {
     index: true,
   },
