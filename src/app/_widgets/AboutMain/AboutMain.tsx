@@ -9,7 +9,7 @@ export const AboutMain = () => {
         </div>
         <div className="flex flex-col items-center text-center md:text-left md:w-5/12 animate-fade-in">
           <p className="text-2xl md:text-4xl font-bold mb-4 mt-14">
-            Farid Tipayev
+            Merlin Sparrow
           </p>
           <p className="text-base md:text-lg">
             I began my web development journey in 2023, choosing Node.js and
